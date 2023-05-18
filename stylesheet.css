@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;400&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(rgba(0,0,0,0.7), transparent);
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+    margin: 15px 10px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid rgb(45, 85, 41);
+}
+
+section {
+    width: 70%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1 {
+    font-size: 80px;
+    color: rgb(38, 66, 12);
+}
+
+section:nth-of-type(1) {
+    background-image: url(./components/imgs/pexels-polina-tankilevitch-4519053.jpg);
+}
+section:nth-of-type(2) {
+    background-image: url(./components/imgs/pexels-ella-olsson-1640770\(2\).jpg);
+}
+section:nth-of-type(3) {
+    background-image: url(./components/imgs/hermes-rivera-Ww8eQWjMJWk-unsplash.jpg);
+}
